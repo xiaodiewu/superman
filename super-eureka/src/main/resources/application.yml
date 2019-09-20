@@ -1,0 +1,23 @@
+info:
+  app:
+    name: "注册中心服务"
+
+spring:
+  application:
+    name: super-eureka
+
+server:
+  port: 5601
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://super1:5601/eureka/
+  server:
+    eviction-interval-timer-in-ms: 5000
+    enable-self-preservation: false
+
+management:
+  security:
+    enabled: false

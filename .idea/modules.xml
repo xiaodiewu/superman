@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/super-base/super-base.iml" filepath="$PROJECT_DIR$/super-base/super-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/super-eureka/super-eureka.iml" filepath="$PROJECT_DIR$/super-eureka/super-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/super-gateway/super-gateway.iml" filepath="$PROJECT_DIR$/super-gateway/super-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/superman.iml" filepath="$PROJECT_DIR$/.idea/superman.iml" />

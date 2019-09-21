@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/super-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/super-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/super-base/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,20 @@
+info:
+  app:
+    name: APIÍø¹Ø·şÎñ
+
+spring:
+  application:
+    name: super-gateway
+
+server:
+  port: 5600
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://super1:5601/eureka/
+    register-with-eureka: true
+zuul:
+  routes:
+    super-base:
+      path: /v1/super/base/**

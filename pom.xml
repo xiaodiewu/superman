@@ -24,6 +24,7 @@
     <modules>
         <module>super-gateway</module>
         <module>super-eureka</module>
+        <module>super-base</module>
     </modules>
 
     <dependencyManagement>

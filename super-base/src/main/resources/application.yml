@@ -1,0 +1,17 @@
+info:
+  app:
+    name: 基础服务组件
+
+spring:
+  application:
+    name: super-base
+
+server:
+  port: 5602
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://super1:5601/eureka/
+    register-with-eureka: true
+

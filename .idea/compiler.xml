@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="super-base" />
         <module name="super-eureka" />
         <module name="super-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="super-base" target="1.8" />
       <module name="super-eureka" target="1.8" />
       <module name="super-eureka (1)" target="1.8" />
       <module name="super-gateway" target="1.8" />
